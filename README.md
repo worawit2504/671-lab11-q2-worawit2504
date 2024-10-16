@@ -18,7 +18,7 @@ summation(lst1, lst2) = [1+4,2+5,3+6]
                       = [5, 7, 9]
 ```
 
-**หมายเหตุ:**  expression  lst1 + lst2 ในภาษา Python นั้นเรียกว่า list concatenation ไม่ใช่  element-wise addition
+**หมายเหตุ:**  expression  `lst1 + lst2` ในภาษา Python นั้นเรียกว่า list concatenation ไม่ใช่  element-wise addition
 
 **หมายเหตุ:** ถ้า นศ ไม่ได้ใช้ `summation` function และ `find_min_max` function เพื่อการคำนวณจะไม่ได้คะแนนจากข้อนี้ 
 
