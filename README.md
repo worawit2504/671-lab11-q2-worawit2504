@@ -10,6 +10,16 @@
 โปรแกรมจะเริ่มจากการรับค่า `n`, `lst1`, และ `lst2` 
 จากนั้น โปรแกรมจะเรียก function `summation` และ function `find_min_max` ตามลำดับ และแสดงผลลัพธ์
 
+function `summation` กำหนดให้เป็น Element-wise addition ระหว่าง 2 lists เช่น  
+```
+lst1 = [1, 2, 3]
+lst2 = [4, 5, 6]
+summation(lst1, lst2) = [1+4,2+5,3+6]
+                      = [5, 7, 9]
+```
+
+**หมายเหตุ:**  expression  lst1 + lst2 ในภาษา Python นั้นเรียกว่า list concatenation ไม่ใช่  element-wise addition
+
 **หมายเหตุ:** ถ้า นศ ไม่ได้ใช้ `summation` function และ `find_min_max` function เพื่อการคำนวณจะไม่ได้คะแนนจากข้อนี้ 
 
 **ตัวอย่างที่ 1:**
